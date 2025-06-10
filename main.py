@@ -5,9 +5,7 @@ import os
 
 TOKEN = '8154113615:AAE5pLcIHwbzFpBqqyK3Qna9JNauOmvyCkQ'
 
-bot = telebot.TeleBot(TOKEN)
-
-
+bot = telebot.TeleBot(TOKEN
 menu_items = [
         {"name": "Грибной суп", "price": "450 руб.", "photo": "mushroom_soup.png"},
         {"name": "Салат Цезарь", "price": "550 руб.", "photo": "caesar.png"},
